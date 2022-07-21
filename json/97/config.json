@@ -1,0 +1,77 @@
+{
+  "multiCall": "0xe348b292e8eA5FAB54340656f3D374b259D658b8",
+  "graphql": "http://47.242.227.176:8000/subgraphs/name/libra-finance/libra",
+  "basePools": [
+    {
+      "name": "3LBR",
+      "address": "",
+      "tokens": [ "BUSD", "USDC", "USDT" ],
+      "lpToken": "3LBR"
+    }
+  ],
+  "metaPools": [
+    {
+      "address": "",
+      "basePool": "3LBR",
+      "tokens": [ "USDm", "3LBR" ],
+      "lpToken": "USDm3LBR",
+      "deposit": ""
+    }
+  ],
+  "farms": [
+    {
+      "alias": "StakeLBR(EarnLBR)",
+      "pid": 0,
+      "stakeToken": "LBR",
+      "earnToken": "LBR",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": ""
+    },
+    {
+      "alias": "Stake3LBR(EarnLBR)",
+      "pid": 1,
+      "stakeToken": "3LBR",
+      "earnToken": "LBR",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": ""
+    },
+    {
+      "alias": "StakeUSDm3LBR(EarnLBR)",
+      "pid": 2,
+      "stakeToken": "USDm3LBR",
+      "earnToken": "LBR",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": ""
+    }
+  ],
+  "oracles": [
+    {
+      "token": "WBNB",
+      "address": "0x219839278BcC018947dB2666f4CB6410db6FE32C"
+    },
+    {
+      "token": "BUSD",
+      "address": "0xC9164aE6969F810Bdbd26b8E5Bd53EE5De5c08Ed"
+    },
+    {
+      "token": "USDC",
+      "address": "0x1554E1560932D240B177aa5F374CB45208e6A9Ae"
+    },
+    {
+      "token": "USDT",
+      "address": "0xAEa2f7cf46d5afECa939b429356a7AaE62DD07C4"
+    }
+  ],
+  "priceHelper": [
+    {
+      "pair": "0x798D1D1613cD209e1127e4C5aB78aa30A7aC8Ec0",
+      "token": "LBR",
+      "another": "WBNB"
+    },
+    {
+      "pair": "0x884635a2C8ad89cbD1b3b28342525732cC548a0a",
+      "token": "USDm",
+      "another": "BUSD"
+    }
+  ]
+}

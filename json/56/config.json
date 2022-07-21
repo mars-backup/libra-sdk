@@ -1,0 +1,462 @@
+{
+  "marsFarms": [
+    {
+      "alias": "MarsLP(xms-usdmEarnXMS)",
+      "pid": 7,
+      "address": "0xe47cCE810174Ac2aCEaB936e6FF93690888bcF24",
+      "baseToken": "xms",
+      "quoteToken": "usdm",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "MarsLP(xms-usdmEarnCAKE)",
+      "pid": 3,
+      "address": "0xe47cCE810174Ac2aCEaB936e6FF93690888bcF24",
+      "baseToken": "xms",
+      "quoteToken": "usdm",
+      "earnToken": "cake",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x22D8d50454203bd5a41B49ef515891f1aD9f3e53"
+    },
+    {
+      "alias": "MarsLP(xms-wbnbEarnXMS)",
+      "pid": 1,
+      "address": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "MarsLP(xms-wbnbEarnBNB)",
+      "pid": 1,
+      "address": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "wbnb",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x48C42579D98Aa768cde893F8214371ed607CABE3"
+    },
+    {
+      "alias": "MarsLP(xms-wbnbEarnCAKE)",
+      "pid": 1,
+      "address": "0x40b605d8beed09568e702deadce90fb23cfd74d8",
+      "baseToken": "xms",
+      "quoteToken": "wbnb",
+      "earnToken": "cake",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x22D8d50454203bd5a41B49ef515891f1aD9f3e53"
+    },
+    {
+      "alias": "MarsLP(usdm-celtEarnXMS)",
+      "pid": 6,
+      "address": "0x0815d52965d139de58A3A6a8f3A632C2C96B8F46",
+      "baseToken": "usdm",
+      "quoteToken": "celt",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "MarsLP(helmet-wbnbEarnXMS)",
+      "pid": 2,
+      "address": "0x2dd0c55bd1ad840cd73da3abd420b3199312e7d4",
+      "baseToken": "helmet",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "MarsLP(for-busdEarnXMS)",
+      "pid": 3,
+      "address": "0x3c06FEADb46d72d987a0ed37D973e61cB6998b10",
+      "baseToken": "for",
+      "quoteToken": "busd",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    }
+  ],
+  "externalFarms": [
+    {
+      "alias": "PancakeLP(cake-wbnbEarnXMS)",
+      "pid": 1,
+      "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+      "baseToken": "cake",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(busd-wbnbEarnXMS)",
+      "pid": 2,
+      "address": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+      "baseToken": "busd",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(usdt-wbnbEarnXMS)",
+      "pid": 3,
+      "address": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+      "baseToken": "usdt",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(cake-busdEarnXMS)",
+      "pid": 7,
+      "address": "0x804678fa97d91b974ec2af3c843270886528a9e6",
+      "baseToken": "cake",
+      "quoteToken": "busd",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(cake-usdtEarnXMS)",
+      "pid": 8,
+      "address": "0xA39Af17CE4a8eb807E076805Da1e2B8EA7D0755b",
+      "baseToken": "cake",
+      "quoteToken": "usdt",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(eth-wbnbEarnXMS)",
+      "pid": 4,
+      "address": "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc",
+      "baseToken": "eth",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(btcb-wbnbEarnXMS)",
+      "pid": 5,
+      "address": "0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082",
+      "baseToken": "btcb",
+      "quoteToken": "wbnb",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(btcb-busdEarnXMS)",
+      "pid": 6,
+      "address": "0xF45cd219aEF8618A92BAa7aD848364a158a24F33",
+      "baseToken": "btcb",
+      "quoteToken": "busd",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "PancakeLP(btcb-ethEarnXMS)",
+      "pid": 9,
+      "address": "0xD171B26E4484402de70e3Ea256bE5A2630d7e88D",
+      "baseToken": "btcb",
+      "quoteToken": "eth",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    }
+  ],
+  "pools": [
+    {
+      "alias": "StakeUSDM(EarnXMS)",
+      "pid": 5,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "StakeUSDM(EarnBNB)",
+      "pid": 2,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "wbnb",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x48C42579D98Aa768cde893F8214371ed607CABE3"
+    },
+    {
+      "alias": "StakeUSDM(EarnBTC)",
+      "pid": 1,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "btcb",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xA53b575F9eC7126ba7b43c8c3171Fe4685F2f8b0"
+    },
+    {
+      "alias": "StakeUSDM(EarnETH)",
+      "pid": 1,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "eth",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x4639d936F0A716f234EAD073362C5Cb272Cc4B70"
+    },
+    {
+      "alias": "StakeUSDM(EarnCAKE)",
+      "pid": 2,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "cake",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x22D8d50454203bd5a41B49ef515891f1aD9f3e53"
+    },
+    {
+      "alias": "StakeUSDM(EarnCELT)",
+      "pid": 0,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "celt",
+      "masterChef": "LiquidityMiningMasterV1D2",
+      "masterChefAddress": "0x6E7cf396eA6Cb48bE7d15e03e3b6BD1E7860cE6B"
+    },
+    {
+      "alias": "StakeXMS(EarnXMS)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "xms",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xc7B8285a9E099e8c21CA5516D23348D8dBADdE4a"
+    },
+    {
+      "alias": "StakeCake(EarnXMS)",
+      "pid": 0,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "baseToken": "cake",
+      "quoteToken": "cake",
+      "earnToken": "xms",
+      "masterChef": "MarsFarmV2",
+      "masterChefAddress": "0xb7881F5142245531C3fB938a37b5D2489EFd2C01"
+    },
+    {
+      "alias": "StakeXMS(EarnBNB)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "wbnb",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x48C42579D98Aa768cde893F8214371ed607CABE3"
+    },
+    {
+      "alias": "StakeXMS(EarnBTC)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "btcb",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0xA53b575F9eC7126ba7b43c8c3171Fe4685F2f8b0"
+    },
+    {
+      "alias": "StakeXMS(EarnETH)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "eth",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x4639d936F0A716f234EAD073362C5Cb272Cc4B70"
+    },
+    {
+      "alias": "StakeXMS(EarnCAKE)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "cake",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x22D8d50454203bd5a41B49ef515891f1aD9f3e53"
+    },
+    {
+      "alias": "StakeXMS(EarnFor)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "for",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x29F4FD982ee7aeE8fd1F1Da76585bf99e7d4740D"
+    },
+    {
+      "alias": "StakeXMS(EarnKALA)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "kala",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x3a003E18124CFFf65c14cb111893aFF4e89b3814"
+    },
+    {
+      "alias": "StakeXMS(EarnHELMET)",
+      "pid": 0,
+      "address": "0x7859B01BbF675d67Da8cD128a50D155cd881B576",
+      "baseToken": "xms",
+      "quoteToken": "xms",
+      "earnToken": "helmet",
+      "masterChef": "LiquidityMiningMaster",
+      "masterChefAddress": "0x56B91eBaeb450CE27a3C4a41D9bf16162dD63eA2"
+    },
+    {
+      "alias": "StakeUSDm(EarnMONI)",
+      "pid": 0,
+      "address": "0xBb0fA2fBE9b37444f5D1dBD22e0e5bdD2afbbE85",
+      "baseToken": "usdm",
+      "quoteToken": "usdm",
+      "earnToken": "moni",
+      "masterChef": "LiquidityMiningMasterV1D2",
+      "masterChefAddress": "0xae399b41f559b6fe83777db91ada51b804d86b13"
+    }
+  ],
+  "busdHolders": [
+    {
+      "alias": "boundingCurve",
+      "address": "0xC600F8D8280caCE673B493cB91682De581C826C0"
+    },
+    {
+      "alias": "pcvController",
+      "address": "0xF288B2494B40aF9C66c721aa562143E55C4FC358"
+    },
+    {
+      "alias": "newBondingcurve",
+      "address": "0x0833B526f3590959EC6305fC16E4a46876b53dB3"
+    },
+    {
+      "alias": "newPCVcontroller",
+      "address": "0xBA6D012e37C0f209230682EFe382bF8986BBC347"
+    }
+  ],
+  "xmsHolders": [
+    {
+      "alias": "core",
+      "address": "0x00789Cfb69499c65ac9A3a68fb4917c9b4FcA2a7"
+    },
+    {
+      "alias": "redemption",
+      "address": "0x03E11B39a664adc404958A04593D2140961bD707"
+    },
+    {
+      "alias": "devAddress",
+      "address": "0x1a4749172e40D4Ca21eDc562C35c0d3a0aFCc525"
+    },
+    {
+      "alias": "genesisgroup",
+      "address": "0x17e32caAc9528846f555E254C8613B423bA20702"
+    },
+    {
+      "alias": "genesis1",
+      "address": "0x54047d0b644E06e535cC052779E18D56b148894C"
+    },
+    {
+      "alias": "genesis2",
+      "address": "0xe22F437669464e6aA87a5Fd3a21BF6a6B09955E2"
+    }
+  ],
+  "usdmBusdLP": "0x18F9466ECA35A82a78086d79A78cE7ab16f10616",
+  "usdmBusdHolders": [
+    {
+      "alias": "PCV",
+      "address": "0x343BD1bE0C557043ee2b31bb9a99DD4b6c585455"
+    }
+  ],
+  "oracle": {
+    "xmsCirculatingSupply": "0xD27CF0BC9FB18301C9F5b0e0FaC4D1c99698F12D",
+    "busd": "0xcC413F6C89b6Fa3e1F48389968E303ac519Cbd38",
+    "wbnb": "0x0D2dD8Af1385828bbd61a1FcdC2ACCf068137BFb"
+  },
+  "multiCall": "0x1ee38d535d541c55c9dae27b12edf090c608e6fb",
+  "priceHelper": [
+    {
+      "address": "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16",
+      "baseToken": "wbnb",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+      "baseToken": "usdt",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+      "baseToken": "cake",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082",
+      "baseToken": "btcb",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc",
+      "baseToken": "eth",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0xC869A9943b702B03770B6A92d2b2d25cf3a3f571",
+      "baseToken": "helmet",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0x133ee93fe93320e1182923e1a640912ede17c90c",
+      "baseToken": "vai",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0xc2eed0f5a0dc28cfa895084bc0a9b8b8279ae492",
+      "baseToken": "bake",
+      "quoteToken": "wbnb"
+    },
+    {
+      "address": "0xB72Ffd4673c047a881f6Af917daB512D8b294436",
+      "baseToken": "kala",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0xE730C7B7470447AD4886c763247012DfD233bAfF",
+      "baseToken": "baby",
+      "quoteToken": "usdt"
+    },
+    {
+      "address": "0xE60B4e87645093A42fa9dcC5d0C8Df6E67f1f9d2",
+      "baseToken": "for",
+      "quoteToken": "busd"
+    },
+    {
+      "address": "0x63DaffF68E6d34E0A9050b221869ca93cD2a5949",
+      "baseToken": "celt",
+      "quoteToken": "usdt"
+    },
+    {
+      "address": "0xbcfd0d4a37fEb4dceAAeFa9da28CD833E5f04e9f",
+      "baseToken": "moni",
+      "quoteToken": "wbnb"
+    }
+  ]
+}

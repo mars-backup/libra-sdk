@@ -1,0 +1,53 @@
+{
+  "name": "Libra",
+  "tokens": [
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+      "decimals": 18
+    },
+    {
+      "name": "BUSD",
+      "symbol": "BUSD",
+      "address": "0xdB5AF2dFcB7D5cf019f3e089F87Fd589A989f953",
+      "decimals": 18
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0x8e3eC781A0d5590cc26A2571FdF4cd30Cb8AB425",
+      "decimals": 18
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x78588558b5e757DD3A5563BB5782792f2fe5c4A8",
+      "decimals": 18
+    },
+    {
+      "name": "Mars USD",
+      "symbol": "USDm",
+      "address": "0x4265338e9DA0d8Ee6dA3CfD02EaC0ae0A310cf1c",
+      "decimals": 18
+    },
+    {
+      "name": "Libra Token",
+      "symbol": "LBR",
+      "address": "0x14D00c80B1A8bba29AceD2e3464d5c720a918080",
+      "decimals": 18
+    },
+    {
+      "name": "Libra 3Pool LPToken",
+      "symbol": "3LBR",
+      "address": "0x619e58C7e7596e4e918A8ec37cb81895d349F57D",
+      "decimals": 18
+    },
+    {
+      "name": "Libra USDm3Pool LPToken",
+      "symbol": "USDm3LBR",
+      "address": "0xec1113a9d5ec66712E524Ded68c9f230C45a8f46",
+      "decimals": 18
+    }
+  ]
+}
